@@ -1,0 +1,9 @@
+version: '3'
+services:
+  bots:
+    build: .
+    image: 'bots:3.2.0'
+    ports:
+      - 80:8080
+    # volumes:
+    #   - ./botssys:/usr/local/lib/python2.7/site-packages/bots/botssys
